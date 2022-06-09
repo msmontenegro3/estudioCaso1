@@ -39,23 +39,23 @@ public class Celular {
 		this.espacio = espacio;
 	}
 	
-	//M�TODOS PROPIOS
+	//MÉTODOS PROPIOS
 	
 	public String enciende() {
 		String estado="Encendiendo...";
 		return estado;
-	}//fin clase enciende
+	}//fin método enciende
 	
 	public String llamar(String contacto) {
 		//recibe el contacto y lo devuelve dentro de la llamada
 		return "Llamando a: "+contacto;
-	}//fin clase llamar
+	}//fin método llamar
 	
 
-	//M�todo toString
+	//Método toString
 	public String toString() {
 		return String.format("Color: %s \nMemoria: %s GB \nEspacio: %s GB",getColor(), getMemoria(), getEspacio());
-	}//fin clase toString
+	}//fin método toString
 
 	
 }
